@@ -104,13 +104,6 @@ function init() {
         }
     }
 
-    // This was the original implementation, spreading the particles randomly across the window
-    // for (let i=0; i < 1000; i++) {
-    //     let x = Math.random() * canvas.width;
-    //     let y = Math.random() * canvas.height;
-    //     particleArray.push(new Particle(x, y));
-    // }
-
 }
 
 console.log(particleArray);
